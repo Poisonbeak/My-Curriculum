@@ -135,7 +135,7 @@ h3{
     height: 140px;
     padding: 0 7px 0 7px;
     margin: 7px;
-    border: 1px solid black;
+    border: 0.1em solid rgb(46, 46, 134);
 }
 
 .languages img{
