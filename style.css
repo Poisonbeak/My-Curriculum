@@ -29,6 +29,10 @@ table{
     margin: 15px 0 20px 0;
 }
 
+tr td:nth-of-type(1){       /* selects the first cell of each row */
+    font-weight: bold;
+} 
+
 form{
     border-left: 2px solid rgb(46, 46, 134);
     padding-left: 20px;
