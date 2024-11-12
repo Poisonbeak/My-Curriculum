@@ -18,11 +18,22 @@ a{
     text-decoration: none;
 }
 
+table{
+    text-align: center;
+    border-collapse: collapse;
+    margin: 15px 0 20px 0;
+}
+
+table th, table tr, table td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
 .main{
     width: 700px;
     background: white;
     margin: 100px auto 0 auto;
-    padding: 7px;
+    padding: 15px;
 }
 
 .header{
@@ -82,7 +93,11 @@ h3{
 }
 
 .info{
-    padding: 7px 7px 20px 7px;
+    margin-bottom: 20px;
+}
+
+.info ul{
+    margin: 15px 0 15px 0;
 }
 
 .info b{
@@ -93,5 +108,6 @@ h3{
 .info img{
     float: left;
     width: 150px;
-    padding-right: 15px;
+    margin-right: 15px;
+    border: 2px solid rgb(46, 46, 134);
 }
