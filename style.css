@@ -98,7 +98,7 @@ h3{
 .main{
     width: 700px;
     background: white;
-    margin: 100px auto 0 auto;
+    margin: 50px auto 93px auto;
     padding: 15px;
 }
 
@@ -177,4 +177,19 @@ h3{
 .work b{
     display: block;
     margin-bottom: 10px;
+}
+
+.footer{
+    background-color: rgb(46, 46, 134);
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+}
+
+.footer p{
+    font-family: Cambria, 'Times New Roman', serif;
+    color: white;
 }
